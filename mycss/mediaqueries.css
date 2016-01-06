@@ -116,11 +116,15 @@
 @media screen and (max-width: 906px) {
 
 .navbar-nav li a{
-	margin-left:35px;
-	margin-right:20px;
-	font-size: 11px;
+	
+	font-size: 13px;
+	margin-left:15px;
+	margin-right:40px;
+
 
 }
+
+
 
 					}
 
@@ -128,8 +132,8 @@
 
 /*nav bar*/
 .navbar{
-	height:75px;
 	
+	 
 
 }
 					}
