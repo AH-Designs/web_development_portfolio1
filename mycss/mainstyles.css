@@ -37,6 +37,7 @@ body{
 	margin-right:40px;
 	font-size: 14px;
 	color:#000000;
+	padding-bottom:5px;
 }
 
 /*collapse button styling*/
@@ -228,6 +229,7 @@ nav ul li a:hover{
 .blue_gradient{
 	background-image: 
 		linear-gradient(#429C9D, #FFFFFF);
+		z-index: -2;
 
 }
 
@@ -279,7 +281,7 @@ h3{
 }
 
 .portfolio_flex_item{
-	margin:autopx;
+	margin:auto;
 	padding:30px;
 	align-items:center;
 	text-align: center;
@@ -303,9 +305,72 @@ h3{
 
 .my_portfolio{
 	position: relative;
-	bottom:100px;
+	bottom:366px;
 	
 }
+
+.portfolio{
+	position: relative;
+	top:230px;
+}
+
+/*portfolio quotes styling and arrow*/
+
+div.portfolio_quote_div1{
+	width:100%;
+	text-align: center;
+	display: block;
+	width:100%;
+	position: relative;
+	bottom:450px;
+}
+
+div.portfolio_quote_div2{
+	width:100%;
+	text-align: center;
+	display:block;
+	width:100%;
+	position: relative;
+	bottom:150px;
+}
+p.quote1 {
+	color:#ffffff;
+	width:1000px;
+	z-index: 5;
+	font-size: 45px;
+	font-weight: bold;
+	margin:0 auto;
+	text-shadow: 3px 2px 3px rgba(150, 150, 150, 1);
+}
+p.quote2{
+	color:#ffffff;
+	width:1000px;
+	z-index: 5;
+	font-size: 45px;
+	font-weight: bold;
+	margin:0 auto;
+	text-shadow: 3px 2px 3px rgba(150, 150, 150, 1);
+	
+}
+
+div.arrow_div{
+	width:100%;
+	text-align: center;
+	display:block;
+	width:100%;
+	position: relative;
+	bottom:420px;
+}
+
+.arrow_div img{
+	
+	width:;
+	z-index: 5;
+	
+	margin:0 auto;
+}
+
+
 
 /*Footer styling*/
 
