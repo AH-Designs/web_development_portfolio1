@@ -38,6 +38,12 @@ body{
 	font-size: 14px;
 }
 
+/*collapse button styling*/
+
+.navbar-toggle{
+	width:45px;
+	height:45px;
+}
 
 /*:HOVER*/
 
