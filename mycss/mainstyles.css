@@ -126,7 +126,8 @@ nav ul li a:hover{
 	color:#ffffff;
 	text-align: center;
 	z-index: 1;
-	margin-top: 70px;
+	margin-top: 40px;
+	padding-left: 35px;
 }
 
 /*About me section*/
@@ -138,27 +139,79 @@ nav ul li a:hover{
 	display: block;
 }
 
+
+
 /*FLEXBOX ABOUT_ME*/
 
 .about_me_flex_container{
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	
+	felx-grow:1;
 	justify-content:space-around;
 	width: 100%;
 	margin-top: 65px;
-	margin-left:20px;
+	
 
 }
 
-.bio_flex_item{
+.sizing_images1 {
+	padding-left:20px;
+}
 
+.bio_flex_item2{
+
+	background-image: url("images/pinned.png");
+	background-repeat: no-repeat;
+	height:450px;
+	width:550px;
+
+}
+.bio_text_block{
+	padding-top: 18px;
+	margin: auto;
+	width:350px;
+	display: block;
+}
+.bio_text_block h3{
+	margin-bottom: 0px;
+}
+
+
+
+.intro_bio {
+	font-weight: bold;
+	margin-bottom:3.5px ;
+	font-size: 18px;
+	text-align: center;
+}
+
+.main_text_bio{
+	font-size: 15px;
+	text-align: center;
+	
 
 }
 
 
 
+.contact_button{
+	height:40px;
+	width:150px;
+	border:solid 5px #ED4A62;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: block;
+
+
+	
+
+}
+.contact_button h4{
+	margin:auto;
+	color:#ED4A62;
+
+}
 
 
 /*About me light blue gradient background*/
@@ -183,11 +236,30 @@ h2{
 
 }
 
+h3{
+	color:#EF8C30;
+	font-weight:bold;
+	font-size: 28px;
+
+}
+
+/*flex container button*/
+
+.button_flex_contianer{
+	display: flex;
+	
+}
+
+.contact_button{
+	margin: auto;
+}
+
 /*Footer styling*/
 
 #footer{
 	background-color: black;
 	height:100px;
+	z-index: 10;
 
 }
 
@@ -201,9 +273,16 @@ h2{
 #social_networks{
 	position: relative;
 	top:15px;
+}
 
-	
+#envelope_icon{
+	font-size: 17px;
+}
 
+
+
+ul li.twitter p{
+	margin-right: -4px;
 }
 
 #say_hello p{
