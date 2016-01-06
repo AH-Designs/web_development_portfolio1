@@ -142,17 +142,19 @@ nav ul li a:hover{
 
 .about_me_flex_container{
 	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
 	
-	justify-content:center;
+	justify-content:space-around;
 	width: 100%;
+	margin-top: 65px;
+	margin-left:20px;
 
 }
 
 .bio_flex_item{
-	
-    width: 580px;
-    height: 560px;
-    margin: 10px;
+
+
 }
 
 
